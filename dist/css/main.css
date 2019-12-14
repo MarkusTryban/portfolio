@@ -13,7 +13,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #ffbc00; }
+  background-color: #23be0e; }
 
 .btn-light {
   color: #333;
@@ -26,7 +26,7 @@
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: #ffbc00; }
+  background-color: #23be0e; }
 
 .lead {
   font-size: 1.3rem;
@@ -66,7 +66,7 @@ input[class^='btn-']:hover {
 
 .item {
   position: relative;
-  background: #ffbc00;
+  background: #23be0e;
   overflow: hidden; }
   .item::after {
     content: '';
@@ -178,15 +178,15 @@ img {
     padding: 1rem 1.5rem; }
   #main-nav a {
     text-decoration: none;
-    color: #fff;
+    color: #f6fcee;
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
     transition: border-color 0.5s; }
     #main-nav a:hover {
-      border-color: #ccc; }
+      border-color: #23be0e; }
     #main-nav a.current {
-      border-color: #ffbc00; }
+      border-color: #23be0e; }
 
 #header-home {
   background: url("../img/dock_on_lake.jpg") no-repeat center right/cover;
@@ -197,12 +197,13 @@ img {
     padding-top: 20%; }
   #header-home h1 {
     font-size: 4rem;
-    line-height: 1.2; }
+    line-height: 1.2;
+    color: #f6fcee; }
 
 #header-inner {
   background: url("../img/dock_on_lake.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
-  border-bottom: 3px solid #ffbc00; }
+  border-bottom: 3px solid #23be0e; }
 
 #main-footer {
   background: #333;
@@ -223,7 +224,7 @@ img {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
-        background: #ffbc00; }
+        background: #23be0e; }
 
 .txt-type {
-  color: #ffbc00; }
+  color: #23be0e; }

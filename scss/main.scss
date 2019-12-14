@@ -57,14 +57,14 @@ img {
 
   a {
     text-decoration: none;
-    color: #fff;
+    color: $medium-color;
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
     transition: border-color 0.5s;
 
     &:hover {
-      border-color: $medium-color;
+      border-color: $main-color;
     }
 
     &.current {
@@ -88,6 +88,7 @@ img {
     h1 {
       font-size: 4rem;
       line-height: 1.2;
+      color: $medium-color;
     }
   }
 
