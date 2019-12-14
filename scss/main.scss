@@ -33,14 +33,6 @@ img {
   width: 100%;
 }
 
-// Logo
-#logo {
-  width: 70px;
-  height: 70px;
-  color: #fff;
-  text-transform: uppercase;
-}
-
 // Main nav
 #main-nav {
   display: flex;
@@ -90,12 +82,10 @@ img {
       line-height: 1.2;
       color: $medium-color;
     }
-  }
 
-  &-inner {
-    background: $bg-image no-repeat 20% 30% / cover;
-    height: 5.5rem;
-    border-bottom: 3px solid $main-color;
+    .txt-type {
+      color: $main-color;
+    }
   }
 }
 
@@ -126,8 +116,4 @@ img {
       }
     }
   }
-}
-
-.txt-type {
-  color: $main-color;
 }

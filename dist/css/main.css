@@ -6,8 +6,9 @@
 
 .btn-main, .btn-light, .btn-dark {
   display: inline-block;
-  padding: 0.8rem 2rem;
+  padding: 0.3rem 2rem;
   transition: all 0.5s;
+  text-transform: uppercase;
   border: none;
   cursor: pointer; }
 
@@ -162,12 +163,6 @@ h4 {
 img {
   width: 100%; }
 
-#logo {
-  width: 70px;
-  height: 70px;
-  color: #fff;
-  text-transform: uppercase; }
-
 #main-nav {
   display: flex;
   justify-content: flex-end;
@@ -199,11 +194,8 @@ img {
     font-size: 4rem;
     line-height: 1.2;
     color: #f6fcee; }
-
-#header-inner {
-  background: url("../img/dock_on_lake.jpg") no-repeat 20% 30%/cover;
-  height: 5.5rem;
-  border-bottom: 3px solid #23be0e; }
+  #header-home .txt-type {
+    color: #23be0e; }
 
 #main-footer {
   background: #333;
@@ -225,6 +217,3 @@ img {
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
         background: #23be0e; }
-
-.txt-type {
-  color: #23be0e; }
