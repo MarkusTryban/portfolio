@@ -170,7 +170,8 @@ img {
   #main-nav ul {
     display: flex; }
   #main-nav li {
-    padding: 1rem 1.5rem; }
+    padding: 1rem 1.5rem;
+    scroll-behavior: smooth; }
   #main-nav a {
     text-decoration: none;
     color: #f6fcee;
