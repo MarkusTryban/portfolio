@@ -16,7 +16,7 @@ body {
 
 a {
   text-decoration: none;
-  color: $dark-color;
+  color: $medium-color;
 }
 
 ul {
@@ -36,7 +36,7 @@ img {
 // Main nav
 #main-nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding-top: 1rem;
 
   ul {
@@ -50,7 +50,7 @@ img {
 
   a {
     text-decoration: none;
-    color: $medium-color;
+    color: $main-color;
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
@@ -69,7 +69,7 @@ img {
 // Header
 #header {
   &-home {
-    background: $bg-image no-repeat center right / cover;
+    background: $medium-color;
     height: 100vh;
     color: #fff;
 
@@ -92,8 +92,8 @@ img {
 
 // Footer
 #main-footer {
-  background: $dark-color;
-  color: #fff;
+  background: $medium-color;
+  color: #333;
   height: 5rem;
 
   .footer-content {
