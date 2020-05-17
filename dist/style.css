@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
 :root {
   --primary-color: #3a4052;
 }
@@ -6,6 +8,21 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #3a4052;
+}
+
+#header {
+  display: flex;
+  z-index: 1;
 }
 
 h1 {
